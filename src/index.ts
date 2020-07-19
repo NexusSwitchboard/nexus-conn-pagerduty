@@ -1,4 +1,4 @@
-import { Connection, ConnectionConfig, GlobalConfig } from "@nexus-switchboard/nexus-extend";
+import { Connection, ConnectionConfig, GlobalConfig } from "@nexus-switchboard/nexus-core";
 import debug from "debug";
 import Client from "node-pagerduty";
 export const logger = debug("nexus:pagerduty");
