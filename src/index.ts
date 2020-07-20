@@ -10,7 +10,7 @@ export interface IPagerDutyConfig {
 }
 
 export class PagerDutyConnection extends Connection {
-    public name = "PagerDuty";
+    public name = "nexus-conn-pagerduty";
     public config: IPagerDutyConfig;
     public api: Client;
 
